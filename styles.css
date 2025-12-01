@@ -1,0 +1,160 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* body */
+* /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+#container {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #00000033;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.time-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.time-input div {
+    margin: 0 7px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 80px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center contents horizontally */
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    /* Add bottom margin if needed */
+}
+
+#urlInput {
+    flex: 1;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 32px;
+    width: 200px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    /* Ensures padding is included in the height and width */
+}
+
+.add-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    width: 45px;
+    height: 32px;
+    padding: 3px 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+    margin-bottom: 0.9px;
+}
+
+.add-button:hover {
+    background-color: #cc0000;
+}
+
+.blocked-sites {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.blocked-sites ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.blocked-sites li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.remove-button {
+    background-color: rgb(203, 69, 69);
+    border: none;
+    color: white;
+    width: min-content;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: rgb(204, 6, 6);
+}
